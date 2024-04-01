@@ -1,0 +1,271 @@
+.navbar {
+    background-color: #138C8E;
+}
+
+.footer {
+    background-color: #138C8E;
+    padding: 40px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: auto;
+}
+
+.exit {
+    background-color: #138C8E; 
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.exit:hover {
+    background-color: #ffffff;
+    color: #138C8E;
+    
+}
+
+.button {
+    background-color: #FF9279;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 850px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo {
+    width: 150px; 
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #004647;
+    margin-top: 20px;
+}
+
+.livro {
+    width: 400px;
+    text-align: center; 
+}
+
+.forms {
+    margin-bottom: 20px;
+    border-color: #FF9279;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="url"],input[type="email"], input[type="password"], textarea,select {
+    width: 100%;
+    padding: 15px;
+    border: 1.5px solid #FF9279;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+input[type="text"], input[type="url"], input[type="email"], input[type="password"], textarea,select:focus {
+    border-color: #FF9279;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+select {
+    background-size: 20px;
+    color: #FF9279;
+    width: 430px;
+}
+
+::placeholder {
+    color: #FF9279; 
+    font-weight: normal; 
+    font-family: Arial, sans-serif;
+}
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 250px);
+}
+
+.login-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #FF9279;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.logo-2 {
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.form {
+    margin-bottom: 20px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.login-button {
+    background-color: #FF9279;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 35px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.body-2 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0px; 
+}
+
+.footer-2 {
+    text-align: center;
+    background-color: #138C8E;
+    padding: 40px;
+    color: #ffffff;
+    margin-top: auto;
+}
+
+.login-card-2 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #FF9279;
+    padding: 10px;
+    text-align: center;
+    width: 380px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1px;
+}
+
+.logo-3 {
+    width: 150px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.form-1 {
+    margin-bottom: 20px;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.btn-Troca, .btn-Lista{
+    border: none;
+    width: 110px;
+    padding: 3px 0;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    height: 30px;
+}
+
+.btn-Troca{
+    background-color: #FF9279;
+    color: #FFFFFF;
+}
+
+.btn-Lista{
+    background-color: #FFFFFF;
+    color: #FF9279;
+    border: solid 2px #FF9279;
+    margin-left: 5px;
+}
+
+.livros {
+    padding: 40px;
+    width: 250px;
+    margin: 2px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h2 {
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.add-button {
+    background-color: #FF9279;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-decoration: none; 
+    margin-right: 150px;
+    font-size: 16px;
+}
+
+.add-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.add-button:hover {
+    background-color: #FF9279;
+}
